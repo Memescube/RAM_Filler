@@ -14,6 +14,7 @@ int main() {
 
     for (long i=0; i<ram; i++) buffer[i] = i;
 
+    cout << endl;
     cout << "Done!" << endl;
     cout << "Press Enter to free filled RAM..." << endl;
     cin.ignore();
